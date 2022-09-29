@@ -1981,11 +1981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulinho\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Paulinho\\api_sqlserver\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Paulinho\\api\\api.csproj",
+      "projectPath": "C:\\Users\\Paulinho\\api_sqlserver\\api.csproj",
       "packagesPath": "C:\\Users\\Paulinho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulinho\\api\\obj\\",
+      "outputPath": "C:\\Users\\Paulinho\\api_sqlserver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paulinho\\AppData\\Roaming\\NuGet\\NuGet.Config"
