@@ -13,7 +13,6 @@ app.MapPost("/products", (Product product) => {
     return Results.Created("/products/" + product.Code, product.Code);
 });
 
-//api.app.com/user/{code}
 app.MapGet("/products/{code}", ([FromRoute] string code) => {
     var product =  ProductRepository.GetBy(code);
     if(product != null)
