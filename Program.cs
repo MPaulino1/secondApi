@@ -13,7 +13,6 @@ app.MapPost("/products", (Product product) => {
     return Results.Created("/products/" + product.Code, product.Code);
 });
 
-//api.app.com/user/{code}
 app.MapGet("/products/{code}", ([FromRoute] string code) => {
     var product =  ProductRepository.GetBy(code);
     if(product != null)
@@ -80,7 +79,6 @@ public class Product {
     public Category Category { get; set; }
     public List<Tag> Tags { get; set; }
 }
-
 public class  ApplicationDbContext : DbContext {
     
     public DbSet<Product> Products { get; set; }
