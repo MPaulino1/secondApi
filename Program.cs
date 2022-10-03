@@ -79,7 +79,6 @@ public class Product {
     public Category Category { get; set; }
     public List<Tag> Tags { get; set; }
 }
-
 public class  ApplicationDbContext : DbContext {
     
     public DbSet<Product> Products { get; set; }
