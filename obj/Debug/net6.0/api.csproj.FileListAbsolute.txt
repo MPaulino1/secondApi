@@ -73,3 +73,4 @@ C:\Users\Paulinho\api_sqlserver\obj\Debug\net6.0\refint\api.dll
 C:\Users\Paulinho\api_sqlserver\obj\Debug\net6.0\api.pdb
 C:\Users\Paulinho\api_sqlserver\obj\Debug\net6.0\api.genruntimeconfig.cache
 C:\Users\Paulinho\api_sqlserver\obj\Debug\net6.0\ref\api.dll
+C:\Users\Paulinho\api_sqlserver\bin\Debug\net6.0\appsettings.Development.json
