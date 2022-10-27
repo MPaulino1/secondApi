@@ -16,7 +16,6 @@ app.MapPost("/products", (ProductRequest productRequest, ApplicationDbContext co
         Description = productRequest.Description,
         Category = category
     };
-    
     if(productRequest.Tags != null)
     {
         product.Tags = new List<Tag>();
